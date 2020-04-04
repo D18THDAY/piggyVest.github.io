@@ -1,0 +1,153 @@
+
+body{
+	background-color: #062863;
+	line-height: 1.5px;
+	overflow: auto;
+	font-family: sans-serif;
+	background-image: url(images/1.png), url(images/2.png), url(images/3.png), url(images/last.png);
+	background-repeat: no-repeat;
+	background-position: -1% -15%, 109% 0%, -5% 110%, 107% 105%;
+	background-size: 15%;
+	background-attachment: fixed;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+}
+
+.top{
+	display: flex;
+	align-items: center;
+	padding: 3rem;
+	padding-bottom: 45px;
+	padding-top: 2.5em;
+}
+
+.header{
+	padding:30px;
+}
+
+.caption{
+	color:#4a5568;
+	font-family: sans-serif;
+	font-size: .875rem;
+	line-height: 25px;
+}
+
+.main{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 368px;
+	height: 830px;
+	border-radius: 1.25em;
+	border-bottom-left-radius: 0px;
+	padding: 40px 40px 30px 40px;
+	line-height: 30px;
+}
+
+h1{
+	font-family: U8, sans-serif;
+	font-size: 24px;
+	color: #083e9e;
+	margin: 0px;
+}
+
+p{
+	margin: 0;
+	line-height: 21px;
+}
+
+form{
+	margin-top: 32px;
+	height: 700px;
+	padding: 0px;
+}
+
+form div{
+	margin-bottom: 1rem;
+	padding-bottom: 10px;
+}
+
+label{
+	color: #4a5568;
+	margin-bottom: .2em;
+	line-height: 2;
+	font-weight: 700;
+	font-family: sans-serif;
+	font-size: .75rem;
+}
+
+input{
+	background-color: rgba(237, 242, 247);
+	width: 336px;
+	height: 24px;
+	padding: 16px;
+	border-radius: 4px;
+	border-color: rgba(237, 242, 247);
+	border-width: 0px;
+	font-size: 1em;
+}
+
+::placeholder{
+	opacity: 0.5;
+}
+
+select, button {
+	background-color: rgba(237, 242, 247);
+	width: 365px;
+	height: 50px;
+	padding: 16px;
+	border-radius: .75em;
+}
+
+
+button{
+	background-color: rgb(8, 62, 158);
+	color: #fff;
+	border-bottom-left-radius: 0px;
+	height: 55px;
+	width: 370px;
+	align-self: center;
+	font-weight: bold;
+	border: 0px
+}
+
+button:hover{
+	background-color: rgb(8, 62, 200);
+}
+
+
+select{
+	overflow: scroll;
+	border: 0px;
+	font-size: 1em;
+}
+
+.custom-select{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+.bottom{
+
+	margin: 40px;
+	padding: 0px;
+	color: white;
+	font-size: small;
+}
+
+a:hover{
+	color: rgb(128,128,128);
+}
+
+a{
+	text-decoration: none;
+}
+
+
